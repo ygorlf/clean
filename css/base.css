@@ -1,0 +1,52 @@
+/*
+Base Styles...
+***********************/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 22px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+h1, h2, h3 {
+	text-align: center;
+	color: #353535;
+	margin-top: -5px;
+}
+
+h1 {
+	font-size: 1.9em;
+}
+
+h3 {
+	font-size: 0.8em;
+}
+
+p {
+	font-size: 0.9em;
+	line-height: 1.7em;
+	word-spacing: 1px;
+	text-align: center;
+	margin: 15px;
+	color: #8c9398;
+}
+
+img {
+	max-width: 100%;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}

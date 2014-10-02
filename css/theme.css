@@ -1,0 +1,235 @@
+/* Theme Styles
+*******************/
+
+/* Font Awesome... */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../font/fontawesome-webfont.eot?v=3.0.1');
+  src: url('../font/fontawesome-webfont.eot?#iefix&v=3.0.1') format('embedded-opentype'),
+  url('../font/fontawesome-webfont.woff?v=3.0.1') format('woff'),
+  url('../font/fontawesome-webfont.ttf?v=3.0.1') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General Rules */
+
+h2.arrow {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	padding-bottom: 25px;
+	background: url('../img/h1-bg.png') no-repeat bottom center;
+}
+
+/* Header */
+
+header h1, h2 {
+	font-weight: normal;
+}
+
+header h1 {
+	letter-spacing: 2px;
+}
+
+header h2 {
+	font-size: 1.1em;
+	font-style: italic;
+	letter-spacing: 2px;
+	color: #8c9398;
+}
+
+header span {
+	color: #a1a9b0;
+}
+
+.btn {
+	display: inline-block;
+	width: 150px;
+	padding: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;	
+	color: white;
+	background: rgba(61, 201, 179, 1);
+	box-shadow: 0px 4px 2px darkgreen;
+	border-radius: 4px;
+}
+
+/*****************************************************************/
+
+/* Intro */
+
+#intro {
+	background: #f3f5f8;
+}
+
+/********************************************************************/
+
+/* Bio */
+
+#bio {
+	background: #f3f5f8;
+}
+
+/******************************************************************/
+
+/* Call One */
+
+#call-one {
+	position: relative;
+}
+
+#call-one h2, #call-one h3 {
+	color: white;
+	font-weight: 300;
+}
+
+#call-one h2 {
+	font-size: 4em;
+}
+
+#call-one h3 {
+	font-size: 2.5em;
+}
+
+/***********************************************************************/
+
+/* Concepts Section */
+
+.caption {
+	display: inline-block;
+	position: relative;
+}
+
+.caption img {
+	display: block;
+}
+
+.caption:before {
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	-webkit-transition: opacity 0.8s;
+	-o-transition: opacity 0.8s;
+	transition: opacity 0.8s;
+}
+
+.caption::before {
+	content: '';
+	top: 0;
+	height: 100%;
+	background: rgba(61,201,179, 0.75);
+}
+
+.caption:hover::before {
+	opacity: 1;
+}
+
+/****************************************************************************/
+
+/* Second Call */
+
+#call-two {
+	background: #242830;
+}
+
+#call-two a {
+	display: inline-block;
+	border: 1px solid white;
+	padding: 15px 40px;
+	color: white;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 1.5px
+}
+
+#call-two a:hover {
+	border-color: rgb(61,201,179);
+	color: rgb(61,201,179);
+}
+
+/***************************************************************************/
+
+/* Newsletter */
+
+#newsletter h2 {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+}
+
+#newsletter input[type="email"] {
+	background: rgba(0,0,0, 0.2);
+	border: 1px solid white;
+	padding: 10px 45px;
+	color: white;
+}
+
+#newsletter input[type="submit"] {
+	background: rgba(61, 201, 179, 0.5);
+	border: solid 1px rgba(61, 201, 179, 0.5);
+	color: white;
+	padding: 10px 25px;
+}
+
+#newsletter input[type="submit"]:hover {
+	background: rgba(61, 201, 179, 1);
+}
+
+/*************************************************************************/
+
+/* Contact */
+
+#contact {
+	background: #f3f5f8;
+}
+
+#contact .info {
+	padding: 70px 50px;
+	background: white;
+	box-shadow: 0px 3px 0px 0px #f0f2f4;
+}
+
+#contact .info h3, #contact .info a {
+	color: rgba(61, 201, 179, 1);
+}
+
+#contact h3 i {
+	display: block;
+	margin-bottom: 8px;
+	font-size: 1.5em;
+	color: black
+}
+
+/****************************************************************************/
+
+/* Footer */
+
+footer {
+	background: #242830;
+}
+
+footer a{
+	color: #a1a9b0
+}
+
+footer p {
+	color: white;
+}
+
+footer a:hover {
+	color: rgba(61, 201, 179, 1);
+}
+
+footer .sign {
+	text-transform: uppercase;
+	letter-spacing: 1.5px
+}
+
+
+

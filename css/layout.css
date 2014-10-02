@@ -1,0 +1,152 @@
+/* Layout Styles
+*********************/
+
+/* Master Container */
+
+#wrapper {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+/* Header */
+
+header {
+	width: 100%;
+	background: url('../img/hero-bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+	padding: 250px 0;
+}
+
+header a {
+	margin-top: 60px;
+}
+
+/***************************************************************************/
+
+/* Intro */
+
+#intro {
+	padding: 60px 0;
+}
+
+/**************************************************************************/
+
+/* Skills */
+
+#skills {
+	padding: 60px 0;
+}
+
+#skills ul li {
+	width: 30%;
+	margin: 1.666%;
+	float: left;
+}
+
+/************************************************************************/
+
+/* Bio */
+
+#bio {
+	padding: 60px 0;
+}
+
+#bio .specialists {
+	width: 45%;
+	margin: 2.5%;
+	float: left;
+}
+
+/************************************************************************/
+
+/* First Call */
+
+#call-one {
+	padding: 40px 0;
+	background: url('../img/header-bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+}
+
+#call-one h2 {
+	margin-bottom: 15px;
+}
+
+/***********************************************************************/
+
+/* Concepts Section */
+
+#concepts {
+	padding: 60px 0;
+}
+
+#concepts ul li {
+	width: 30%;
+	margin: 1.6666%;
+	float: left;
+}
+
+#concepts h3 {
+	margin-top: 20px;
+}
+
+/**********************************************************************/
+
+/* Second Call */
+
+#call-two {
+	padding: 70px 0;
+}
+
+/*********************************************************************/
+
+/* Team */
+
+#team {
+	padding: 70px 0;
+}
+
+#team .member {
+	width: 30%;
+	margin: 1.666%;
+	float: left;
+}
+
+/*********************************************************************/
+
+/* Newsletter */
+
+#newsletter {
+	padding: 110px 0;
+	background: url('../img/keyboard-bg.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-moz-background-size: cover;
+}
+
+#newsletter form {
+	display: block;
+}
+
+/*************************************************************************/
+
+/* Contact */
+
+#contact {
+	padding: 60px 0;
+}
+
+#contact .info {
+	width: 30%;
+	margin: 1.666%;
+	float: left;
+}
+
+/**************************************************************************/
+
+/* Footer */
+
+footer {
+	padding: 50px 0;
+	line-height: 50px;
+}

@@ -1,0 +1,43 @@
+/* Module Styles
+**********************/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+ 
+.clearfix:after {
+  clear: both;
+}
+ 
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+.icon {
+	width: 175px;
+	height: 175px;
+	background: #3dc9b3;
+	border-radius: 50%;
+	margin: 30px auto;
+	display: block;
+	color: white;
+	text-align: center;
+	font-size: 75px;
+	line-height: 175px;
+	vertical-align: middle;
+}
+
+h3.bordered::after {
+	content: "";
+	border: 2px solid #3dc9b3;
+	display: block;
+	width: 35px;
+	margin: 20px auto;
+}
+
+.container {
+	text-align: center;
+}
+
